@@ -10,9 +10,9 @@
             return $this->area;
         }
 
-        public function calcularPerimetro(){
-            $this->perimetro = 2*$this->pi*$this->raio;
-            return $this->perimetro;
+        public function calcularArea(){
+            $this->area = 2*$this->pi*$this->raio;
+            return $this->area;
         }
     }
 ?>
