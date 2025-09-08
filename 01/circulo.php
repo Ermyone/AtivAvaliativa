@@ -1,5 +1,5 @@
 <?php
-    Class Circulo{
+    Class Bola{
         public $raio;
         public $area;
         public $perimetro;
@@ -10,9 +10,9 @@
             return $this->area;
         }
 
-        public function calcularArea(){
-            $this->area = 2*$this->pi*$this->raio;
-            return $this->area;
+        public function calcularPerimetro(){
+            $this->perimetro = 2*$this->pi*$this->raio;
+            return $this->perimetro;
         }
     }
 ?>
